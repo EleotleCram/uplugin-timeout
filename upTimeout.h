@@ -13,7 +13,7 @@ typedef uint32_t (*timefunc_t)(void);
 
 class upTimeout : public uPlugin {
 public:
-  Timeout() {}
+  upTimeout() {}
 
   void setup();
   void loop();
